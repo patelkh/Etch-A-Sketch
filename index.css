@@ -1,0 +1,50 @@
+.page {
+    background-color: aliceblue;
+}
+.main-container {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+.header {
+    background-color: rgb(21, 21, 47);
+    color: white;
+    display: block; 
+    padding: 2px;
+}
+
+.body {
+    height: 600px;
+    display: flex
+}
+
+#panel, #board {
+    margin: 20px;
+    width: 200px;
+    height: 550px;
+}
+
+#board {
+    width: 600px;
+    display: inline-grid;
+    flex-direction: column;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    overflow: auto;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.color {
+    background-color: lightskyblue;
+    border: 1px solid blue;
+}
+
+.footer {
+    
+}
